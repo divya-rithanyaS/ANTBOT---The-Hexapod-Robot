@@ -114,7 +114,7 @@ This work has been published in IEEE and presents the design, modeling, and expe
 
 **Publisher:** IEEE  
 
-🔗 [Read the full paper]([https://ieeexplore.ieee.org/your-link](https://ieeexplore.ieee.org/abstract/document/11426098))
+🔗 [Read the full paper](https://ieeexplore.ieee.org/abstract/document/11426098)
 
 ## License
 

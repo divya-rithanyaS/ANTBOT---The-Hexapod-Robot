@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 AntBot is a **low-cost, 21-DOF hexapod robot** designed for indoor surveillance, built with a focus on **architectural simplicity and economic feasibility**. The entire system is controlled by a single **Arduino Mega 2560** microcontroller that directly drives all 21 servo motors — no external PWM drivers needed.
 
@@ -14,20 +14,20 @@ This project demonstrates that **stable, robust, and adaptive hexapod locomotion
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🦾 **21 Degrees of Freedom** — 18-DOF for locomotion + 3-DOF for scanning
-- 🧠 **Single-controller architecture** — Arduino Mega 2560 drives all servos directly
-- 📐 **Geometric Inverse Kinematics** — Custom IK model for precise foot positioning
-- 🚶 **Tripod Gait** — Statically stable gait validated through MATLAB simulation
-- 🔋 **Power-isolated electronics** — Separate logic and motor power rails via DC-DC buck converter
-- 📡 **Bluetooth teleoperation** — Wireless control via HC-05 module and smartphone
-- 🧱 **Obstacle negotiation** — Reactive closed-loop behavior using servo load feedback
-- 📐 **Inclined plane traversal** — Maintains level body orientation on 18° ramps
+- **21 Degrees of Freedom** — 18-DOF for locomotion + 3-DOF for scanning
+- **Single-controller architecture** — Arduino Mega 2560 drives all servos directly
+- **Geometric Inverse Kinematics** — Custom IK model for precise foot positioning
+- **Tripod Gait** — Statically stable gait validated through MATLAB simulation
+- **Power-isolated electronics** — Separate logic and motor power rails via DC-DC buck converter
+- **Bluetooth teleoperation** — Wireless control via HC-05 module and smartphone
+- **Obstacle negotiation** — Reactive closed-loop behavior using servo load feedback
+- **Inclined plane traversal** — Maintains level body orientation on 18° ramps
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Mechanical Design
 - Central chassis + 6 identical legs fabricated from **5mm laser-cut acrylic**
@@ -46,7 +46,7 @@ This project demonstrates that **stable, robust, and adaptive hexapod locomotion
 
 ---
 
-## 📐 Inverse Kinematics
+## Inverse Kinematics
 
 The IK model geometrically solves for three joint angles per leg given a target foot-tip position (x, y, z):
 
@@ -58,7 +58,7 @@ This allows precise, real-time foot placement across varied terrain.
 
 ---
 
-## 🔬 MATLAB Simulation Results
+## MATLAB Simulation Results
 
 Before physical construction, the full kinematic model was validated in MATLAB:
 
@@ -68,13 +68,13 @@ Before physical construction, the full kinematic model was validated in MATLAB:
 | Ripple | 5.9 | 1.4 | 5.4 | 0.75 |
 | Wave | 4.7 | 1.0 | 5.0 | 0.83 |
 
-✅ Minimum stability margin confirmed: **30mm CoM clearance** within support polygon at all times.
+Minimum stability margin confirmed: **30mm CoM clearance** within support polygon at all times.
 
 **Tripod gait was selected** for AntBot's primary use case (indoor flat terrain surveillance) — highest speed with acceptable stability.
 
 ---
 
-## 🧪 Experimental Validation
+## Experimental Validation
 
 ### Test 1 — Obstacle Negotiation
 AntBot successfully detected and climbed over an unmodeled obstacle using **servo load as tactile feedback**. When a load spike was detected during leg descent, the system halted, adapted, and used the contact point as the new ground reference.
@@ -84,7 +84,7 @@ AntBot traversed an 18° ramp while **maintaining a level body platform** — di
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - [ ] Ultrasonic sensing for proactive obstacle avoidance
 - [ ] IMU integration for real-time pose correction
@@ -93,7 +93,7 @@ AntBot traversed an 18° ramp while **maintaining a level body platform** — di
 
 ---
 
-## 👥 Authors
+## Authors
 
 | Name | Institute |
 |------|-----------|
@@ -105,11 +105,11 @@ AntBot traversed an 18° ramp while **maintaining a level body platform** — di
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic and research purposes.
 If you use this work, please cite the original paper.
 
 ---
 
-*Built with ❤️ at Amrita Vishwa Vidyapeetham, Coimbatore*
+*Built with determination and dedication at Amrita Vishwa Vidyapeetham, Coimbatore*

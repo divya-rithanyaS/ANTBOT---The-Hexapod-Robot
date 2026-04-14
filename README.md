@@ -104,6 +104,17 @@ AntBot traversed an 18° ramp while **maintaining a level body platform** — di
 | Akhil V.M (Advisor) | Amrita School of AI, Amrita Vishwa Vidyapeetham |
 
 ---
+## 📄 Research Publication
+
+This work has been published in IEEE and presents the design, modeling, and experimental validation of AntBot.
+
+**Title:** *Design and Experimental Validation of AntBot: An Accessible Hexapod Platform for Surveillance*  
+
+**Authors:** Rishitha C, Divya Rithanya S, Karthikeya Y, Kaushal S, Akhil V.M  
+
+**Publisher:** IEEE  
+
+🔗 [Read the full paper]([https://ieeexplore.ieee.org/your-link](https://ieeexplore.ieee.org/abstract/document/11426098))
 
 ## License
 
